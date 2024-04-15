@@ -153,7 +153,7 @@ function include_style(string $url, string $version='', string $path=''){
 		document.addEventListener("DOMContentLoaded", function() {
 			refactor();
 		});
-    }('http://localhost/mail-editor'));
+    }('/mail-editor'));
 
     if (localStorage.getItem("baseURL")){
         window.base = localStorage.getItem("baseURL");
