@@ -153,7 +153,7 @@ function include_style(string $url, string $version='', string $path=''){
 		document.addEventListener("DOMContentLoaded", function() {
 			refactor();
 		});
-    }('/mail-editor'));
+    }('https://yohflyer.github.io/yohflyer-repo.github.io/mail-editor'));
 
     if (localStorage.getItem("baseURL")){
         window.base = localStorage.getItem("baseURL");
